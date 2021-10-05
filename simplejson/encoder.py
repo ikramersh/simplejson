@@ -224,6 +224,7 @@ class JSONEncoder(object):
         as ``null`` in compliance with the ECMA-262 specification. If true,
         this will override *allow_nan*.
 
+	ivan
         """
 
         self.skipkeys = skipkeys
